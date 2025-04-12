@@ -9,11 +9,11 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
-            text-align: center;
+           
             padding: 20px;
         }
         .container{
-            max-width: 600px;
+            max-width: 500px;
             margin: 0 auto;
             padding: 20px;
             background: #fff;
@@ -22,15 +22,16 @@
         }
         form {
             margin: 20px auto;
-            max-width: 400px;
+            max-width: 300px;
             padding: 20px;
+            font-size: 12px;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         input[type="text"] {
             width: 100%;
-            padding: 10px;
+            padding: 6px;
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
@@ -48,17 +49,28 @@
         }
         .result {
             margin-top: 20px;
-            font-size: 1.2em;
+            font-size: 12px;
             color: #555;
         }
         .php-result{
             margin-top: 20px;
-            font-size: 1.2em;
+            font-size: 12px;
+            line-height: 15px;
             color: #555;
             background-color: #e7f3fe;
             border-left: 6px solid #2196F3;
             padding: 10px;
             border-radius: 4px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 16px;
+        }
+        p {
+            text-align: center;
+            color: #666;
         }
     </style>
 </head>
